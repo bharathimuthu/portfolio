@@ -59,3 +59,7 @@ padding-top:50px;
   border-bottom: 1px solid #E5E4E2;
   }
   
+  .footer >p>a{
+  color:#ffffff;
+  opacity:1;
+  }
