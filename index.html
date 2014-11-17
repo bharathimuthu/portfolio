@@ -5,7 +5,14 @@
 	<title>Bharathi Muthu</title>
     <link rel="stylesheet" href="./bootstrap.css">
     <link rel="stylesheet" href="./portfolio.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400italic,400,700' rel='stylesheet' type='text/css'>
+	
+	<script>
+		$(document).ready(function() {
+   		$(".thumbnail").mouseenter(function() {
+       		$(this).fadeTo('fast',0,5); } }
+	</script>
   </head>
   
   <body>
@@ -39,19 +46,19 @@
 	      
 	      <div class="col-md-4">
 	        <div class="thumbnail">
-            <a href="./resume.html"><img src="./images/resume2.jpg" class="img-circle"></a>
+            <a href="./resume.html"><img id="resumeTN" src="./images/resume2.jpg" class="img-circle"></a>
             </div>
 	      </div>
 	      
 		  <div class="col-md-4">
 		    <div class="thumbnail">
-            <a href="./projects.html"> <img src="./images/projects2.jpg" class="img-circle" ></a>
+            <a href="./projects.html"> <img id="projectTN" src="./images/projects2.jpg" class="img-circle" ></a>
             </div>
 		  </div>
 		  
 		  <div class="col-md-4">
 	        <div class="thumbnail">
-            <a href="./resume.html"><img src="./images/Skills2.jpg" class="img-circle" ></a>
+            <a href="./resume.html"><img id="skillsTN" src="./images/Skills2.jpg" class="img-circle" ></a>
             </div>
 		  </div>
 		  
