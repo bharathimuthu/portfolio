@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Bharathi Muthu | Computer Science Engineer</title>
+	<title>Bharathi Muthu</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -203,7 +203,7 @@
                 <h4 class="page-header">Contact Info</h1>
 				<p>Email: <a href="mailto:bharathi.smm@gmail.com">bharathi.smm@gmail.com</a> | 
 				Linkedin: <a href="http://ae.linkedin.com/in/bharathimuthu">Bharathi Muthu</a></p>
-				<p class="text-muted">Place sticky footer content here.</p>
+				<p class="text-muted">&copy Copyright <span id="year"> - Bharathi Muthu</p>
             </div>
 		</div>
 	</div>
@@ -221,6 +221,14 @@
 				callbackAfter: function ( toggle, anchor ) {}
 			});
 	</script>
+	
+	<script type="text/javascript">
+	var currentYear = (new Date).getFullYear();
+	$(document).ready(function() {
+	$("#year").text( (new Date).getFullYear() );
+	});
+	</script>
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="./bootstrap.min.js"></script>
 </body>
