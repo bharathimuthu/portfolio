@@ -111,7 +111,7 @@ width:100%;
  
 @media screen and (min-width : 320px) and (max-width : 568px) {
 .contact{
-font-size:0.8em;
+height:50vh;
  }
  
   .jumbotron h1{
